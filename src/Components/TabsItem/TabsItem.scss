@@ -1,0 +1,26 @@
+.tabs-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .tabs-item {
+    width: 250px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px;
+  }
+  
+  .title-icon-container {
+    display: flex;
+  }
+
+    .tabs-content {
+      line-height: 20px;
+      margin: 20px;
+    }
+}
+
+.tabs-item-container :hover {
+  border-top: 4px solid rgb(54, 169, 208);
+}
