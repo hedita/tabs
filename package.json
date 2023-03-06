@@ -4,6 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "sass": "node-sass -w src/scss/ -o src/dist/css --recursive ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
