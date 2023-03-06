@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import Tabs from "./Tabs/Tabs";
+import Tabs from "./Components/Tabs/Tabs";
 
 const App = () => {
   return <Tabs />;
