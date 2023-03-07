@@ -1,27 +1,33 @@
+$primary-color: rgb(22, 125, 159);
+$secondary-color: #f1f1f1;
+
+$sizing-small: 15px;
+$sizing-medium: 25px;
+$sizing-large: 55px;
+
 .tabs {
-  background-color: inherit;
   float: left;
-  border: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  padding: 10px 50px 10px 25px;
+  padding: $sizing-small;
+  padding: $sizing-small $sizing-large $sizing-small $sizing-medium;
   text-align: center;
 
   &:hover {
-    border-top: 4px solid rgb(54, 169, 208);
+    border-top: 4px solid $primary-color;
 
       .tabs-icon {
-        color: rgb(22, 125, 159);
+        color: $primary-color;
       }
+  }
+
+  .tabs-title {
+    padding-bottom: $sizing-small;
   }
 }
 
 .tab-content {
-  background-color: #f1f1f1;
+  background-color: $secondary-color;
   position: absolute;
-  margin-top: 55px;
-  padding: 25px;
-  border: 1px solid #ccc;
-  border-top: none;
+  margin-top: $sizing-large;
+  padding: $sizing-medium;
+  border: 1px solid $secondary-color;
 }
