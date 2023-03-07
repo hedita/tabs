@@ -19,7 +19,7 @@ function TabsItem({ title, content, icon }) {
       </div>
       {clicked ? (
         <div className="tab-content">
-          <h3>Heading</h3>
+          <title>Heading</title>
           <p>{content}</p>
         </div>
       ) : null}
