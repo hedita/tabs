@@ -5,13 +5,13 @@ import data from "../../data";
 
 function Tabs() {
   return (
-    <ul className="tabs">
+    <div className="tabs-container">
       {data.map(({ id, title, content, icon }) => {
         return (
           <TabsItem key={id} title={title} content={content} icon={icon} />
         );
       })}
-    </ul>
+    </div>
   );
 }
 

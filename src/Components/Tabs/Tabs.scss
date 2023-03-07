@@ -4,8 +4,8 @@
     margin: 0;
    }
    
-
-  .tabs {
-    display: flex;
-    justify-content: center;
-  }
+.tabs-container {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}

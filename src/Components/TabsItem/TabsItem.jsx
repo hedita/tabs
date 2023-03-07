@@ -10,17 +10,20 @@ function TabsItem({ title, content, icon }) {
   };
 
   return (
-    <div className="tabs-item-container">
-      <li onClick={handleContentVisibility} className="tabs-item">
-        <div className="title-icon-container">
-          <i className="tabs-icon">
-            <Icons icon={icon} />
-          </i>
-          <p className="tabs-title">{title}</p>
+    <>
+      <div onClick={handleContentVisibility} className="tabs">
+        <i className="tabs-icon">
+          <Icons icon={icon} />
+        </i>
+        <p className="tabs-title">{title}</p>
+      </div>
+      {clicked ? (
+        <div className="tab-content">
+          <h3>Heading</h3>
+          <p>{content}</p>
         </div>
-        {clicked ? <p className="tabs-content">{content}</p> : null}
-      </li>
-    </div>
+      ) : null}
+    </>
   );
 }
 

@@ -1,26 +1,57 @@
-.tabs-item-container {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+// .tabs-item-container {
+//   display: flex;
+//   list-style-type: none;
+//   margin-top: 20px;
+//   width: 250px;
+//   text-align: center;
+//   background-color: lightgray;
+//   padding: 15px;
 
-  .tabs-item {
-    width: 250px;
-    text-align: center;
-    background-color: lightgray;
-    padding: 15px;
-  }
+//   &:hover {
+//     border-top: 4px solid rgb(54, 169, 208);
+
+//     .tabs-icon {
+//       color: rgb(22, 125, 159);
+//     }
+//   }
   
-  .title-icon-container {
-    display: flex;
-  }
+//   .title-icon-container {
+//     display: flex;
+//   }
+// }
 
-    .tabs-content {
-      line-height: 20px;
-      margin: 20px;
-    }
+// .tabs-content {
+//   text-align: center;
+//   line-height: 20px;
+//   margin: 20px;
+// }
+
+
+.tabs {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  padding: 10px 50px 10px 25px;
+  text-align: center;
+
+  &:hover {
+    border-top: 4px solid rgb(54, 169, 208);
+
+      .tabs-icon {
+        color: rgb(22, 125, 159);
+      }
+  }
 }
 
-.tabs-item-container :hover {
-  border-top: 4px solid rgb(54, 169, 208);
+.tab-content {
+  background-color: #f1f1f1;
+  position: absolute;
+  margin-top: 55px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
