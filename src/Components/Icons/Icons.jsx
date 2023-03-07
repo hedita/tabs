@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
-import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faPencilSquare } from "@fortawesome/free-solid-svg-icons";
-import { faBarChart } from "@fortawesome/free-solid-svg-icons";
+import { faCode,faFolderOpen,faEnvelope, faPencilSquare, faBarChart } from "@fortawesome/free-solid-svg-icons";
 import "./Icons.scss";
 
 function Icons({ icon }) {
