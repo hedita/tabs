@@ -15,7 +15,7 @@ function TabsItem({ title, content, icon }) {
         <i className="tabs-icon">
           <Icons icon={icon} />
         </i>
-        <p className="tabs-title">{title}</p>
+        <title className="tabs-title">{title}</title>
       </div>
       {clicked ? (
         <div className="tab-content">
