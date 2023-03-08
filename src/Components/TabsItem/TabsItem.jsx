@@ -19,7 +19,7 @@ function TabsItem({ title, content, icon }) {
       </div>
       {isSelected && (
         <div className="tab-content">
-          <title>Heading</title>
+          <p>Heading</p>
           <p>{content}</p>
         </div>
       )}
