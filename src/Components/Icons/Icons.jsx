@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode,faFolderOpen,faEnvelope, faPencilSquare, faBarChart } from "@fortawesome/free-solid-svg-icons";
 import "./Icons.scss";
 
-function Icons({ icon }) {
+function Icon({ icon }) {
   if (icon === "code") {
     return <FontAwesomeIcon icon={faCode} />;
   }
@@ -21,4 +21,4 @@ function Icons({ icon }) {
   }
 }
 
-export default Icons;
+export default Icon;
