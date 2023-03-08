@@ -3,7 +3,7 @@ import "./TabsItem.scss";
 import Icon from "../Icons/Icons";
 
 function TabsItem({ title, content, icon }) {
-  const [clicked, setClicked] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
 
   const handleContentVisibility = () => {
     setClicked(!clicked);
