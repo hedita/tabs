@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./TabsItem.scss";
-import Icons from "../Icons/Icons";
+import Icon from "../Icons/Icons";
 
 function TabsItem({ title, content, icon }) {
   const [clicked, setClicked] = useState(false);
@@ -13,9 +13,9 @@ function TabsItem({ title, content, icon }) {
     <>
       <div onClick={handleContentVisibility} className="tabs">
         <i className="tabs-icon">
-          <Icons icon={icon} />
+          <Icon icon={icon} />
         </i>
-        <title className="tabs-title">{title}</title>
+        <p className="tabs-title">{title}</p>
       </div>
       {clicked && (
         <div className="tab-content">
@@ -28,3 +28,4 @@ function TabsItem({ title, content, icon }) {
 }
 
 export default TabsItem;
+
