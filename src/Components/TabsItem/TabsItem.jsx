@@ -15,7 +15,7 @@ function TabsItem({ title, content, icon }) {
         <i className="tabs-icon">
           <Icon icon={icon} />
         </i>
-        <p className="tabs-title">{title}</p>
+        <p className="tab-heading">{title}</p>
       </div>
       {isSelected && (
         <div className="tab-content">
