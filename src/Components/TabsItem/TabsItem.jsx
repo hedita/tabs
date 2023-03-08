@@ -17,12 +17,12 @@ function TabsItem({ title, content, icon }) {
         </i>
         <title className="tabs-title">{title}</title>
       </div>
-      {clicked ? (
+      {clicked && (
         <div className="tab-content">
           <title>Heading</title>
           <p>{content}</p>
         </div>
-      ) : null}
+      )}
     </>
   );
 }
