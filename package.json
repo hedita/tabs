@@ -1,7 +1,7 @@
 {
   "name": "tabs",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project can help you to have a simple tabs.",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
