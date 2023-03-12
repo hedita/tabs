@@ -1,0 +1,34 @@
+$primary-color: rgb(22, 125, 159);
+$secondary-color: #f1f1f1;
+
+$sizing-small: 15px;
+$sizing-medium: 25px;
+$sizing-large: 55px;
+
+.tab-title {
+  float: left;
+  padding: $sizing-small;
+  padding: $sizing-small $sizing-large $sizing-small $sizing-medium;
+  text-align: center;
+
+  &:hover {
+    border-top: 3px solid $primary-color;
+
+    .tab-icon {
+      color: $primary-color;
+    }
+  }
+
+  .tab-heading {
+    padding-bottom: $sizing-small;
+    font-size: medium;
+  }
+}
+
+.tab-content {
+  background-color: $secondary-color;
+  position: absolute;
+  margin-top: $sizing-large;
+  padding: $sizing-medium;
+  border: 1px solid $secondary-color;
+}
