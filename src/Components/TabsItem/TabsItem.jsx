@@ -12,7 +12,7 @@ function TabsItem({ title, content, icon }) {
   return (
     <>
       <div onClick={handleContentVisibility} className="tab-title">
-        <i className="tabs-icon">
+        <i className="tab-icon">
           <Icon icon={icon} />
         </i>
         <h1 className="tab-heading">{title}</h1>
