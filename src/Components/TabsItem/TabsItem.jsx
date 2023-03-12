@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./TabsItem.scss";
-import Icon from "../Icons/Icons";
+import Icon from "../Icon/Icon";
 
 function TabsItem({ title, content, icon }) {
   const [isSelected, setIsSelected] = useState(false);
